@@ -1,0 +1,137 @@
+.d-flex {
+  display: flex;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+  width: 100%;
+  height: 5vh;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-container {
+  height: 95vh;
+  width: 100%;
+  display: flex;
+}
+
+.sidebar-container {
+  height: 100%;
+  width: 25%;
+  border-left: 1px solid #eeeeee;
+}
+
+.settings-container {
+  .title-container {
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  .text-area-container {
+    padding: 20px;
+  }
+
+  .text-area {
+    height: 100px;
+    width: 100%;
+    font-size: 14px;
+    padding: 5px;
+    margin-top: 10px;
+  }
+}
+
+.message-node {
+  border: 1px solid #7e8ef1;
+  margin: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 50%;
+  color: #7e8ef1;
+}
+
+img {
+  height: 20px;
+  width: 20px;
+}
+
+.text-updater-node {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.text-updater-node p {
+  font-size: 7px;
+  height: 100%;
+}
+
+.save-button {
+  margin: 5px 15px;
+  background-color: #615efc;
+  border: 0;
+  color: #eeeeee;
+  cursor: pointer;
+  height: 30px;
+}
+
+.error-button {
+  border: 0;
+  background-color: lightcoral;
+  margin: 5px 15px;
+  height: 30px;
+}
+
+.back-arrow {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.react-flow__node-default {
+  border: 0;
+  background-color: #7e8ef1;
+}
+
+.message-custom-node {
+  width: 100px;
+}
+
+.send-message-title {
+  background-color: #67c6e3;
+  border-radius: 3px 3px 0 0;
+  font-size: 7px;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.send-message-label {
+  background-color: #eeeeee;
+  border-radius: 0 0 3px 3px;
+  font-size: 7px;
+  padding: 5px;
+  text-align: center;
+}
+
+.dev {
+  position: absolute;
+}
